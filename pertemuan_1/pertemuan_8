@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+
+struct mahasiswa{
+    string nama,nim;
+    float nilai;
+};    
+
+    int main(){
+        system("cls");
+
+        mahasiswa shs;
+        vektor<mahasiswa>mahasiswa;
+        int n;
+
+        cout<<"masukkan jumlah mahasiswa :";
+        cin>>n;
+
+        for (int i = 0; i < n;i++){
+
+        cout<<"masukkan nama :";
+        getline(cin<mhs.nama);
+
+        cout << "masukkan NIM :";
+        cin>>mhs.nim;
+
+        cout << "masukkan nilai :";
+        cin>> mhs.nilai;
+
+        mahasiswa.push_back(mhs);
+        }
+        cout<<mhs.nama<<"memiliki NIM"<<mhs.nim<<"dan nilai"<<mhs.nilai<<endl;
+    }   
+
+    mahasiswa [] 
+
+
